@@ -1,0 +1,9 @@
+rootProject.name = 'zeus'
+include 'zeus-food-api'
+include 'zeus-food-server'
+include 'zeus-food-test'
+
+project(':zeus-food-api').projectDir = "$rootDir/zeus-food-api" as File
+project(':zeus-food-server').projectDir = "$rootDir/zeus-food-server" as File
+project(':zeus-food-test').projectDir = "$rootDir/zeus-food-test" as File
+
