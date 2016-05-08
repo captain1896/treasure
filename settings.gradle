@@ -1,9 +1,9 @@
-rootProject.name = 'zeus'
-include 'zeus-food-api'
-include 'zeus-food-server'
-include 'zeus-food-test'
+rootProject.name = 'treasure'
+include 'treasure-island-api'
+include 'treasure-island-server'
+include 'treasure-island-test'
 
-project(':zeus-food-api').projectDir = "$rootDir/zeus-food-api" as File
-project(':zeus-food-server').projectDir = "$rootDir/zeus-food-server" as File
-project(':zeus-food-test').projectDir = "$rootDir/zeus-food-test" as File
+project(':treasure-island-api').projectDir = "$rootDir/treasure-island-api" as File
+project(':treasure-island-server').projectDir = "$rootDir/treasure-island-server" as File
+project(':treasure-island-test').projectDir = "$rootDir/treasure-island-test" as File
 
