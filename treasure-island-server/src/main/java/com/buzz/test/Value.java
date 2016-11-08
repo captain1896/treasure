@@ -1,7 +1,7 @@
 package com.buzz.test;
 
 public enum Value {
-    TRUE(1),FLASE(0);
+    TRUE(1), FALSE(0);
     private int value;
 
     private Value(int value) {
