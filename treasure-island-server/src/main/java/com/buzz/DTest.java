@@ -10,7 +10,7 @@ public class DTest {
         System.out.println(getRandomNo(0));
         Random random = new Random();
         for (int i = 0 ; i < 10 ;i++){
-            System.out.println(random.nextInt(2));
+            System.out.println(random.nextInt(20));
         }
     }
 

@@ -47,5 +47,6 @@ public class DiscardServer {
             port = 8080;
         }
         new DiscardServer(port).run();
+        System.out.println("discard server starts...");
     }
 }
